@@ -139,7 +139,7 @@ const (
 	SockCreateType
 )
 
-// CgroupProgram represents a cgroup skb/sock program
+// CgroupProgram represents a cgroup skb/sock_ops/socks program
 type CgroupProgram struct {
 	Name  string
 	insns *C.struct_bpf_insn
